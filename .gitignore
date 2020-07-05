@@ -1,3 +1,4 @@
+main
 /target
 Cargo.lock
 **/*.rs.bk
