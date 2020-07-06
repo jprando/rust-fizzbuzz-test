@@ -1,15 +1,8 @@
-fn get_value(num: i8) -> String {
-	return match (num % 3, num % 5) {
-		(0, 0) => "FIZZBUZZ".to_string(),
-		(0, _) => "FIZZ".to_string(),
-		(_, 0) => "BUZZ".to_string(),
-		_ => num.to_string()
-	};
-}
-
 fn main() {
-	for i in 1..100 {
-		let value = get_value(i);
-		println!("{}", value);
-	}
+	(1..101u8).map(|num| match(num % 3, num % 5) {
+		(0, 0) => "FIZZBUZZ".into(),
+		(0, _) => "FIZZ".into(),
+		(_, 0) => "BUZZ".into(),
+		_ => num.to_string()
+	}).for_each(|num| println!("{}", num))
 }
