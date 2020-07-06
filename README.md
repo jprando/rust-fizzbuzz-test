@@ -12,6 +12,8 @@ The implementation of the FizzBuzz test in the [rust language](https://www.rust-
 
 ## fn ShowMe() { the_code }
 
+content of [main.rs](/src/main.rs) file
+
 ```rust
 fn main() {
   (1..101u8).map(|num| match(num % 3, num % 5) {
