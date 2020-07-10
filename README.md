@@ -8,7 +8,7 @@ For numbers which are multiples of both three and five print “FizzBuzz”.
 
 ## In this repository
 
-The implementation of the FizzBuzz test in the [rust language](https://www.rust-lang.org/).
+The implementation of the FizzBuzz test in [rust language](https://www.rust-lang.org/).
 
 ## fn ShowMe() { the_code }
 
